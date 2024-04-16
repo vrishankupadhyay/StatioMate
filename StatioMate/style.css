@@ -1,0 +1,270 @@
+/* NAVBAR */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* :root{
+    --navbar-height:30px;
+} */
+
+#navbar{
+    display: flex;
+    /* align-items: center; */
+}
+#logo{
+    margin: 15px;
+}
+#logo img{
+    height: 50px;
+    width: 50px;
+}
+#navbar{
+    position: relative;
+}
+
+#navbar ul{
+    margin: 30px;
+    display: flex;
+ 
+}
+
+#navbar::before{
+    content: "";
+    background-color:rgb(30, 5, 5) ;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* opacity: 0.4; */
+}
+
+#navbar ul li{
+  
+    list-style: none;
+    font-size: 1.1rem;
+}
+#navbar ul li a{
+    color: wheat;
+    display: block;
+    padding: 1px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    
+}
+#navbar ul li a:hover{
+    color:rgb(146, 216, 219);
+    background-color: rgb(64, 32, 32);
+   
+}
+
+/* HOME SECTION */
+
+#home{
+    padding: 0px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(54, 16, 16);
+    
+}
+#home h1{
+    font-size: 45px;
+	padding: 140px;
+}
+#home p{
+    font-size: 20px;
+    padding: 15px;
+}
+#home::before{
+    content: "";
+    background: url(images/bg3.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+   
+}
+/* UTILITY CLASSES */
+.btn{
+    background-color: rgb(54, 16, 16);
+    color: white;
+    padding: 2px 10px;
+    border-radius: 12px;
+    border:rgb(54, 16, 16);
+    font-size: 17px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(118, 33, 33);
+  
+}
+
+/* MENU SECTION */
+
+#menu{
+    padding: 110px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(30, 5, 5);
+	margin-bottom: 330px;
+    
+}
+#menu h1{
+    font-size: 45px;
+    margin-top: 40px;
+	
+}
+#menu::before{
+    content: "";
+    background: url(images/bgt.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    z-index: -1;
+   
+}
+
+a {
+    color: rgb(211, 179, 119);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(114, 71, 16); 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+
+
+#order{
+    height: 400px;
+    padding: 65px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    color: rgb(61, 19, 19);
+    
+}
+
+#order::before{
+    content: "";
+    background: url(images/g1.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    z-index: -1;
+   
+}
+
+#order h1{
+    font-size: 45px;
+}
+
+form input{
+    
+        background-color:rgb(54, 16, 16)  ;
+        color: white;
+        padding: 2px 10px;
+        border-radius: 12px;
+        border:rgb(54, 16, 16);
+        font-size: 17px;
+        cursor: pointer;
+    }
+    input:hover{
+        background-color: rgb(87, 27, 27);
+      
+    }
+
+    /* ABOUT */
+
+#about{
+        height: 400px;
+        padding: 150px 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+        color: wheat;
+    }
+#about h1{
+        font-size: 45px;
+}
+
+#about p{
+    padding: 10px;
+    font-size: 25px;
+    font-style: italic;
+}
+
+/* CONTACT */
+
+#contact{
+    /* background-color:rgb(30, 5, 5) ; */
+	background-image: url(images/c1.jpg);
+    padding: 40px;
+  }
+  
+  #contact h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: rgb(30, 5, 5);
+  }
+  
+  #contact p {
+    color: rgb(30, 5, 5);
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  #contact form {
+    color: rgb(30, 5, 5);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #contact label {
+    color: rgb(30, 5, 5);
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact textarea {
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #contact input[type="submit"] {
+    background-color:rgb(71, 27, 27) ;
+    color: wheat;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #contact input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  #contact ul {
+    list-style: none;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  #contact ul li {
+    margin-bottom: 10px;
+  }
+  
+
